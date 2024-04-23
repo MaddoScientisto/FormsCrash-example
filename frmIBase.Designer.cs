@@ -1,6 +1,6 @@
 ﻿namespace FormsCrash
 {
-    partial class frmISearch
+    partial class frmIBase
     {
         /// <summary>
         /// Required designer variable.

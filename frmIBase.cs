@@ -12,11 +12,11 @@ using Autodesk.Revit.UI;
 
 namespace FormsCrash
 {
-    public partial class frmISearch : Form
+    public partial class frmIBase : Form
     {
         private UIDocument Uidoc = new UIDocument(null);
 
-        public frmISearch()
+        public frmIBase()
         {
             
         }

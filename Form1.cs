@@ -1,7 +1,7 @@
 using Autodesk.Revit.UI;
 namespace FormsCrash
 {
-    public partial class Form1 : frmISearch
+    public partial class Form1 : frmIBase
     {
         public Form1()
         {
