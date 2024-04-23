@@ -10,6 +10,15 @@
     <Platforms>AnyCPU;x64</Platforms>
 
   </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="dll\**" />
+    <Compile Remove="WinFormsLibrary1\**" />
+    <EmbeddedResource Remove="dll\**" />
+    <EmbeddedResource Remove="WinFormsLibrary1\**" />
+    <None Remove="dll\**" />
+    <None Remove="WinFormsLibrary1\**" />
+  </ItemGroup>
 	<ItemGroup>
 		<FrameworkReference Include="Microsoft.WindowsDesktop.App" />
 	</ItemGroup>
