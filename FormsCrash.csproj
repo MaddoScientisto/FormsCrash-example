@@ -10,6 +10,15 @@
     <Platforms>AnyCPU;x64</Platforms>
 
   </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="dll\**" />
+    <Compile Remove="WinFormsLibrary1\**" />
+    <EmbeddedResource Remove="dll\**" />
+    <EmbeddedResource Remove="WinFormsLibrary1\**" />
+    <None Remove="dll\**" />
+    <None Remove="WinFormsLibrary1\**" />
+  </ItemGroup>
 	<ItemGroup>
 		<FrameworkReference Include="Microsoft.WindowsDesktop.App" />
 	</ItemGroup>
@@ -25,6 +34,10 @@
   <ItemGroup>
     <PackageReference Include="Nice3point.Revit.Api.RevitAPI" Version="2025.0.2" />
     <PackageReference Include="Nice3point.Revit.Api.RevitAPIUI" Version="2025.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="WinFormsLibrary1\WinFormsLibrary1.csproj" />
   </ItemGroup>
 
 </Project>
