@@ -8,17 +8,13 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-using Autodesk.Revit.UI;
-
-namespace FormsCrash
+namespace FormsCrashNet48
 {
-    public partial class frmIBase : Form
+    public partial class Form1 : frmIBase
     {
-        private UIDocument uidoc;
-
-        public frmIBase()
+        public Form1()
         {
-            
+            InitializeComponent();
         }
     }
 }
